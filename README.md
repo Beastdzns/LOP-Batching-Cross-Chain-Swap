@@ -6,21 +6,22 @@ Batch Token Swapping is a process that allows a user (the maker) to swap multipl
 User Request:
 The user wants to swap:
 
-10 DAI
+- 10 DAI
 
-5 ETH
+- 5 ETH
 
-3 SHIB
+- 3 SHIB
+
 Into USDC.
 
 Batch Swap Execution:
 The platform takes the following steps internally:
 
-Swap 10 DAI for USDC at the current exchange rate.
+- Swap 10 DAI for USDC at the current exchange rate.
 
-Swap 5 ETH for USDC at the current exchange rate.
+- Swap 5 ETH for USDC at the current exchange rate.
 
-Swap 3 BAT for USDC at the current exchange rate.
+- Swap 3 BAT for USDC at the current exchange rate.
 
 This happens in a single transaction.
 
