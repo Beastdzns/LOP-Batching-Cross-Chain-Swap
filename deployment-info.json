@@ -1,0 +1,29 @@
+{
+  "contractAddress": "0x35F16dDDc63Fd2A9B9e8C86dCf24bff1438A3752",
+  "limitOrderProtocolAddress": "0xE53136D9De56672e8D2665C98653AC7b8A60Dc44",
+  "deploymentTx": "0x361b62cdf0cad542f611494e3d88972cc8e3d2ff3a4c3eeb77c01bad5beeb598",
+  "timestamp": "2025-09-27T18:31:04.094Z",
+  "network": "baseSepolia",
+  "chainId": "84532",
+  "deployer": "0xCC2643E58c76D8F2824be8703BDb071806585984",
+  "gasUsed": "1575955",
+  "gasStrategy": "AUTOMATIC",
+  "totalCost": "0.001575955000002545",
+  "testResults": {
+    "expiryFunctions": "PASSED",
+    "batchValidation": "PASSED",
+    "permitSupport": "PASSED",
+    "interfaceCompleteness": "PASSED"
+  },
+  "tokenAddresses": {
+    "maker1Token": "0x9607c8045566eDa2ebCf2a044438bD65DB37386C",
+    "maker2Token": "0x804883DbC16BCB93f63E3d7eB7C7a07Ca4dc1694",
+    "maker3Token": "0xe60f11F556a6A5936Cd24dB9Dd61ecEfA8CC5b27",
+    "takerToken": "0xaa3CD0A852651f00c1a79fCE161Ac120FDB83a62",
+    "weth": "0x885fd951fB363B6F7ECda513745Ce124E88D09aC"
+  },
+  "readyForMainnet": true,
+  "productionReady": true,
+  "staticTestValues": true,
+  "automaticGas": true
+}
