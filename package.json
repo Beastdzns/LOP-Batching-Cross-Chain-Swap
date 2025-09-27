@@ -58,6 +58,7 @@
     "zksync-ethers": "6.15.0"
   },
   "scripts": {
+    "batch": "npx hardhat run scripts/setup-test.js --network baseSepolia",
     "clean": "rimraf artifacts cache coverage contracts/hardhat-dependency-compiler artifacts-zk cache-zk",
     "deploy": "hardhat deploy --network",
     "coverage": "hardhat coverage",
