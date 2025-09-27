@@ -7,6 +7,7 @@ require('hardhat-dependency-compiler');
 require('hardhat-deploy');
 require('hardhat-gas-reporter');
 require('hardhat-tracer');
+require('@nomicfoundation/hardhat-toolbox');
 require('dotenv').config();
 const { oneInchTemplates } = require('@1inch/solidity-utils/docgen');
 const { Networks, getNetwork } = require('@1inch/solidity-utils/hardhat-setup');
@@ -20,7 +21,21 @@ if (getNetwork().indexOf('zksync') !== -1) {
 const { networks, etherscan } = (new Networks()).registerAll();
 
 module.exports = {
-    etherscan,
+    etherscan: {
+        apiKey: {
+            baseSepolia: process.env.BASESCAN_API_KEY || "",
+        },
+        customChains: [
+            {
+                network: "baseSepolia",
+                chainId: 84532,
+                urls: {
+                    apiURL: "https://api-sepolia.basescan.org/api",
+                    browserURL: "https://sepolia.basescan.org",
+                },
+            },
+        ],
+    },
     tracer: {
         enableAllOpcodes: true,
     },
@@ -35,7 +50,14 @@ module.exports = {
             viaIR: true,
         },
     },
-    networks,
+    networks: {
+        baseSepolia: {
+            url: "https://sepolia.base.org",
+            accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+            chainId: 84532,
+            gasPrice: 1000000000,
+        }
+    },
     namedAccounts: {
         deployer: {
             default: 0,
