@@ -26,7 +26,7 @@ The platform takes the following steps internally:
 This happens in a single transaction.
 
 Result:
-The user receives the equivalent value in USDC for all of the tokens they swapped.
+The user receives the equivalent value in Taker for all of the tokens they swapped.
 
 ### Benefits: 
 - **Gas Savings**: Instead of paying for each transaction separately, the user only pays for one, saving on gas fees.
@@ -34,3 +34,13 @@ The user receives the equivalent value in USDC for all of the tokens they swappe
 - **Time Efficiency**: Rather than waiting for multiple transactions to complete, the user only waits for one.
 
 - **Convenience**: The user can easily swap different tokens for a single destination token in one step, making portfolio management simpler.
+
+### Deployed Contracts (Testnet)
+
+Maker1Token: 0x9607c8045566eDa2ebCf2a044438bD65DB37386C
+Maker2Token: 0x804883DbC16BCB93f63E3d7eB7C7a07Ca4dc1694
+Maker3Token: 0xe60f11F556a6A5936Cd24dB9Dd61ecEfA8CC5b27
+TakerToken: 0xaa3CD0A852651f00c1a79fCE161Ac120FDB83a62
+
+Using LOP : 0xE53136D9De56672e8D2665C98653AC7b8A60Dc44
+WETH MOCK: 0x885fd951fB363B6F7ECda513745Ce124E88D09aC
