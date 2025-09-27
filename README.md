@@ -6,22 +6,22 @@ Batch Token Swapping is a process that allows a user (the maker) to swap multipl
 User Request:
 The user wants to swap:
 
-- 10 DAI
+- 100 Maker1 Token
 
-- 5 ETH
+- 50 Maker2 Token
 
-- 3 SHIB
+- 75 Maker3 Token
 
-Into USDC.
+Into Taker Token.
 
 Batch Swap Execution:
 The platform takes the following steps internally:
 
-- Swap 10 DAI for USDC at the current exchange rate.
+- Swap 100 Maker1 for Taker Token at the current exchange rate(1 Maker1 = 2 Taker).
 
-- Swap 5 ETH for USDC at the current exchange rate.
+- Swap 50 Maker2 for Taker Token at the current exchange rate(1 Maker2 = 0.5 Taker).
 
-- Swap 3 BAT for USDC at the current exchange rate.
+- Swap 75 Maker3 for Taker Token at the current exchange rate(1 Maker3 = 2 Taker).
 
 This happens in a single transaction.
 
