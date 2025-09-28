@@ -27,6 +27,7 @@ This happens in a single transaction.
 
 Result:
 The user receives the equivalent value in Taker for all of the tokens they swapped.
+(Mock contracts are present in the mockTokens folder)
 
 ### Benefits: 
 - **Gas Savings**: Instead of paying for each transaction separately, the user only pays for one, saving on gas fees.
