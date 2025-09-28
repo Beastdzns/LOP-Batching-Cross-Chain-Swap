@@ -2,6 +2,7 @@
 
 Batch Token Swapping is a process that allows a user (the maker) to swap multiple different assets into a single destination asset (the taker) in a single transaction. Instead of making individual swaps for each token, batch swapping consolidates the process, reducing transaction costs and time.
 
+**Presentation Link**: https://www.canva.com/design/DAG0PSR_SGA/dDmi0ALWyFmQSNFus80dEA/edit?utm_content=DAG0PSR_SGA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ### Example:
 User Request:
 The user wants to swap:
