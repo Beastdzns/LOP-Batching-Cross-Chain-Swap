@@ -67,3 +67,5 @@ Use BatchOrderFillerWithPermit.sol for:
 - When working with ERC2612-compatible tokens
 - Applications requiring more sophisticated permission management
 - Better integration with modern DeFi protocols
+
+![gif](https://github.com/user-attachments/assets/27ba6dcd-fecb-443b-a42b-a0e8c87982e7)
