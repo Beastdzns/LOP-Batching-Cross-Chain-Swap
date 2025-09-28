@@ -50,3 +50,19 @@ WETH MOCK: 0x885fd951fB363B6F7ECda513745Ce124E88D09aC
 
 <img width="1405" height="861" alt="image" src="https://github.com/user-attachments/assets/12fffb6c-e0f0-4965-ba3b-b50a48048ccf" />
 
+Usage Considerations
+When choosing between the two implementations:
+
+Use BatchOrderFiller.sol for:
+
+- Simple batch swapping requirements
+- When working with tokens that don't support ERC2612
+- Scenarios where traditional approval patterns are acceptable
+
+
+Use BatchOrderFillerWithPermit.sol for:
+
+- Enhanced user experience with gasless approvals
+- When working with ERC2612-compatible tokens
+- Applications requiring more sophisticated permission management
+- Better integration with modern DeFi protocols
