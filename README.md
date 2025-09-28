@@ -52,6 +52,8 @@ WETH MOCK: 0x885fd951fB363B6F7ECda513745Ce124E88D09aC
 
 <img width="1405" height="861" alt="image" src="https://github.com/user-attachments/assets/12fffb6c-e0f0-4965-ba3b-b50a48048ccf" />
 
+<img width="1386" height="786" alt="image" src="https://github.com/user-attachments/assets/b426b0ee-bc40-4f99-971e-2642c3ab0133" />
+
 Usage Considerations
 When choosing between the two implementations:
 
